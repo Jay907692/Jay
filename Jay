@@ -414,16 +414,16 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-    Name = "🏳️白🏳️",
+    Name = "死铁轨🤢",
     Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Kavo-Ui/main/%E4%BC%90%E6%9C%A8%E5%A4%A7%E4%BA%A82.lua", true))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e1cfd93b113a79773d93251b61af1e2f.lua"))()
     end
 })
 
 local Tab = Window:MakeTab({
-	Name = "🌈彩虹好友🏳️‍🌈",
-	Icon = "rbxassetid://7734068321",
-	PremiumOnly = false
+	Name = "墨水游戏",
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XOTRXONY/INKGAME/main/INKGAMEE.lua", true))()
+    end
 })
 
 Tab:AddButton({
