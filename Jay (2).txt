@@ -94,7 +94,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/
 })
 
 local player = Window:MakeTab({
-	Name = "通用功能2",
+	Name = "玩家",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -284,9 +284,9 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-  Name = "1",
+  Name = "Jay最强战场",
   Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Strongest/main/Battlegrounds77"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Strongest/main/Battlegrounds77"))()
   end
 })
 
@@ -474,7 +474,7 @@ player:AddButton({
 })
 
 local player = Window:MakeTab({
-	Name = "⭐️幸运方块战地⭐️",
+	Name = "⭐️99夜day⭐️",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -482,7 +482,7 @@ local player = Window:MakeTab({
 player:AddButton({ 
 	Name = "1",
 	Callback = function()
-      	loadstring(game:HttpGet("https://github.com/bruhhwtf/LUCKY-BLOCKS-Battlegrounds-GUI/raw/main/Main"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gycgchgyfytdttr/shenqin/refs/heads/main/99day.lua"))()
   	end
 })
 
