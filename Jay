@@ -1,6 +1,7 @@
 loadstring(game:HttpGet("https://pastebin.com/raw/6xQ5gtbj"))();
 local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
-local Window = OrionLib:MakeWindow({Name = "Jay脚本1.1", HidePremium = false, SaveConfig = false, IntroText = "欢迎使用", ConfigFolder = "不喜勿喷，缝合脚本"})
+local Window = OrionLib:MakeWindow({Name = "Jay脚本1.1", HidePremium = false, SaveConfig = false, IntroText = 
+"欢迎使用", ConfigFolder = "不喜勿喷，缝合脚本"})
 
 local Tab = Window:MakeTab({
     Name = "Jay脚本",
@@ -631,35 +632,35 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "🥷忍脚本🥷",
+    Name = "忍者脚本",
     Callback = function()
     getgenv().ren666 = "忍脚本，加载时间长请耐心"loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,90,77,115,67,56,114,104,114})end)())))();
     end
 })
 
 Tab:AddButton({
-    Name = "🌞神光脚本🌞",
+    Name = "神光脚本",
     Callback = function()
     loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,56,102,50,76,99,113,113,80})end)())))()
     end
 })
 
 Tab:AddButton({
-    Name = "🌈青脚本🌈",
+    Name = "青脚本",
     Callback = function()
     loadstring(game:HttpGet('https://rentry.co/ct293/raw'))()
     end
 })
 
 Tab:AddButton({
-    Name = "🇨🇳脚本中心🇨🇳",
+    Name = "脚本中心",
     Callback = function()
     loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\103\101\109\120\72\119\65\49"))()
     end
 })
 
 Tab:AddButton({
-    Name = "🦆鸭hub",
+    Name = "鸭脚本",
     Callback = function()
     loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,81,89,49,113,112,99,115,106})end)())))()
     end
@@ -689,7 +690,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Rb脚本中心",
+    Name = "Rb脚本",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yungengxin/roblox/main/RbHUB-v_1.2.3"))()
     end
