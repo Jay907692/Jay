@@ -405,16 +405,16 @@ Tab:AddButton({
     Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/cheat', true))()
     end
-})
+}) 
 
 local Tab = Window:MakeTab({
-    Name = "🔥伐木脚本🔥",
+    Name = "死铁轨",
     Icon = "rbxassetid://7734068321",
     PremiumOnly = false
 })
 
 Tab:AddButton({
-    Name = "死铁轨🤢",
+    Name = "死铁轨脚本1中文",
     Callback = function()
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e1cfd93b113a79773d93251b61af1e2f.lua"))()
     end
@@ -422,14 +422,14 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
 	Name = "墨水游戏",
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XOTRXONY/INKGAME/main/INKGAMEE.lua", true))()
-    end
+    Icon = "rbxassetid://7734068321",
+    PremiumOnly = false
 })
 
 Tab:AddButton({
-    Name = "1",
+    Name = "AX中文",
     Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0rainbow'))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XOTRXONY/INKGAME/main/INKGAMEE.lua", true))()
     end
 })
 
