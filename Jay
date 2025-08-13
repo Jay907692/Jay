@@ -142,14 +142,14 @@ player:AddTextbox({
 })
 
 player:AddButton({
-	Name = "穿墙（暂不可用）",
+	Name = "穿墙",
 	Callback = function()
-      	loadstring(game:HttpGet("https://pastebin.com/raw/jvyN5hT8"))()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Jay907692/Jay/bb90524a8140173dee6d3656c779785e5c4cfeeb/穿", true))()
   	end
 })
 
 player:AddButton({
-	Name = "飞行V3（暂不可用）",
+	Name = "飞行V3",
 	Callback = function()
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/Jay907692/Jay/8b94c47bd5969608438fa1ee57f34b1350789caa/飞行脚本", true))()
   	end
