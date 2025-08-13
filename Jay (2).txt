@@ -617,9 +617,9 @@ loadstring(game:HttpGet(SCC_CharPool[1]))()
 })
 
 Tab:AddButton({
-    Name = "🍺杯脚本🍺",
+    Name = "rb脚本中心",
     Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/zuohongjian/bjb/main/bjb"))()
+﻿loadstring(game:HttpGet("https://raw.githubusercontent.com/Yungengxin/roblox/main/RbHub-v_1.2.4"))()
     end
 })
 
