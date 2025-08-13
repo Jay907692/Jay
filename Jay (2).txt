@@ -286,8 +286,8 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
   Name = "Jay最强战场",
   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Strongest/main/Battlegrounds77"))()
-  end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fcsdsss/games/refs/heads/main/ZuiQiangZhanChang.lua"))()
+   end
 })
 
 Tab:AddButton({
