@@ -151,7 +151,7 @@ player:AddButton({
 player:AddButton({
 	Name = "飞行V3（暂不可用）",
 	Callback = function()
-      	loadstring(game:HttpGet("https://pastebin.com/raw/U27yQRxS"))()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Jay907692/Jay/8b94c47bd5969608438fa1ee57f34b1350789caa/飞行脚本", true))()
   	end
 })
 
