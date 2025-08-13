@@ -278,22 +278,22 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "🤡最强战场🤡",
+	Name = "最强战场🤡",
 	Icon = "rbxassetid://7734068321",
 	PremiumOnly = false
 })
 
 Tab:AddButton({
-  Name = "Jay最强战场",
+  Name = "中文最强战场",
   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Strongest/main/Battlegrounds77"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fcsdsss/games/refs/heads/main/ZuiQiangZhanChang.lua"))()
   end
 })
 
 Tab:AddButton({
-   Name = "点击复制秘钥",
+   Name = "外网最强战场",
    Callback = function()
-    setclipboard("BestTheStrongest5412Roblox")
+loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Tsb-Movesets-Hub-45038"))()    
    end
 })
 
