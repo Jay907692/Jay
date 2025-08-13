@@ -40,7 +40,7 @@ end
 })    
 
 Tab:AddButton({
-  Name = "旋转",
+  Name = "旋转（暂不可用）",
   Callback = function()
     loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
   end
@@ -59,7 +59,7 @@ Tab:AddToggle({
 })
  
 Tab:AddButton({
-	Name = "飞车",
+	Name = "飞车（暂不可用）",
 	Callback = function()
 loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
 	end
@@ -142,14 +142,14 @@ player:AddTextbox({
 })
 
 player:AddButton({
-	Name = "穿墙",
+	Name = "穿墙（暂不可用）",
 	Callback = function()
       	loadstring(game:HttpGet("https://pastebin.com/raw/jvyN5hT8"))()
   	end
 })
 
 player:AddButton({
-	Name = "飞行V3",
+	Name = "飞行V3（暂不可用）",
 	Callback = function()
       	loadstring(game:HttpGet("https://pastebin.com/raw/U27yQRxS"))()
   	end
