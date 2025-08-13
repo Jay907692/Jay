@@ -1,7 +1,7 @@
 loadstring(game:HttpGet("https://pastebin.com/raw/6xQ5gtbj"))();
 local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
-local Window = OrionLib:MakeWindow({Name = "Jay脚本1.1", HidePremium = false, SaveConfig = false, IntroText = 
-"欢迎使用", ConfigFolder = "不喜勿喷，缝合脚本"})
+local Window = OrionLib:MakeWindow({Name = "Jay脚本1.1", HidePremium = false, SaveConfig = false, IntroText = "欢迎使
+用", ConfigFolder = "不喜勿喷，缝合脚本"})
 
 local Tab = Window:MakeTab({
     Name = "Jay脚本",
@@ -692,7 +692,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Rb脚本",
     Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Yungengxin/roblox/main/RbHUB-v_1.2.3"))()
+    loadstring(game:HttpGet("https://raw.git1"））（ ）
     end
 })
 
