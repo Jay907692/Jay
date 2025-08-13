@@ -1,6 +1,6 @@
 loadstring(game:HttpGet("https://pastebin.com/raw/6xQ5gtbj"))();
 local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
-local Window = OrionLib:MakeWindow({Name = "Jay缝合脚本", HidePremium = false, SaveConfig = false, IntroText = "欢迎使用", ConfigFolder = "不喜勿喷，缝合脚本"})
+local Window = OrionLib:MakeWindow({Name = "Jay脚本1.1", HidePremium = false, SaveConfig = false, IntroText = "欢迎使用", ConfigFolder = "不喜勿喷，缝合脚本"})
 
 local Tab = Window:MakeTab({
     Name = "Jay脚本",
@@ -414,9 +414,9 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-    Name = "死铁轨脚本1中文",
+    Name = "外网脚本",
     Callback = function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e1cfd93b113a79773d93251b61af1e2f.lua"))()
+    ﻿loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/FernHub/refs/heads/main/DeadRailsFarm", true))()
     end
 })
 
@@ -689,9 +689,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "脚本中心作者忘了",
+    Name = "Rb脚本中心",
     Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/sharksharksharkshark/shark-shark-shark-shark-shark/main/shark-scriptlollol.txt",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Yungengxin/roblox/main/RbHUB-v_1.2.3"))()
     end
 })
 
